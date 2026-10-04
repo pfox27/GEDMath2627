@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Instructions}{2}{section.1}%
+\contentsline {section}{\numberline {2}Part A: Reading and Interpreting Tables (Questions 1-10)}{3}{section.2}%
+\contentsline {section}{\numberline {3}Part B: Box Plots and Data Interpretation (Questions 11-20)}{4}{section.3}%
+\contentsline {section}{\numberline {4}Part C: Combining Multiple Data Sources (Questions 21-30)}{5}{section.4}%
+\contentsline {section}{\numberline {5}Part D: Mean, Median, and Mode (Questions 31-40)}{6}{section.5}%
+\contentsline {section}{\numberline {6}Part E: Weighted Averages and Complex Problems (Questions 41-50)}{7}{section.6}%
+\contentsline {section}{\numberline {7}Answer Key}{8}{section.7}%

@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Lesson 1: Data Representation}{3}{0}{1}
+\beamer@sectionintoc {2}{Lesson 2: Measures of Central Tendency}{10}{0}{2}
+\beamer@sectionintoc {3}{Lesson 3: Probability Basics}{16}{0}{3}
+\beamer@sectionintoc {4}{Lesson 4: Advanced Probability}{22}{0}{4}
+\beamer@sectionintoc {5}{Lesson 5: Interpreting Data}{28}{0}{5}

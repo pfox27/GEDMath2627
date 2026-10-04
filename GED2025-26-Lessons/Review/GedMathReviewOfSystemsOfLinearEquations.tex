@@ -1,0 +1,585 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\geometry{margin=1in}
+
+\title{Systems of Linear Equations: Worked Examples and Word Problems (GED)}
+\author{GED Mathematics}
+\date{June 22, 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\subsection{What Are Systems of Linear Equations?}
+
+A system of linear equations is a set of two or more linear equations with two or more variables. The solution to a system is the set of values that satisfies all equations simultaneously. On the GED, you need to find the point(s) where two or more lines intersect.
+
+\subsection{Three Main Solution Methods}
+
+There are three primary methods for solving systems of linear equations:
+
+\begin{itemize}
+    \item \textbf{Substitution Method}: Solve one equation for a variable and substitute it into the other equation
+    \item \textbf{Elimination Method}: Multiply one or both equations by constants and add or subtract them to eliminate a variable
+    \item \textbf{Graphing Method}: Graph both equations and find the intersection point
+\end{itemize}
+
+\subsection{Why These Skills Matter for GED Success}
+
+Solving systems of linear equations is essential for:
+
+\begin{itemize}
+    \item Real-world problem solving involving multiple constraints
+    \item Understanding relationships between variables
+    \item Developing algebraic reasoning skills
+    \item Preparing for college-level mathematics
+\end{itemize}
+
+\section{10 Worked Examples}
+
+\subsection{Examples 1--3: Substitution Method}
+
+\subsubsection{Example 1}
+
+\textbf{System:}
+\begin{align*}
+y &= 2x + 1 \\
+x + y &= 7
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item The first equation already gives us $y$ in terms of $x$: $y = 2x + 1$
+    \item Substitute this into the second equation:
+    \begin{align*}
+        x + (2x + 1) &= 7
+    \end{align*}
+    \item Combine like terms:
+    \begin{align*}
+        3x + 1 &= 7
+    \end{align*}
+    \item Solve for $x$:
+    \begin{align*}
+        3x &= 6 \\
+        x &= 2
+    \end{align*}
+    \item Substitute back to find $y$:
+    \begin{align*}
+        y &= 2(2) + 1 = 5
+    \end{align*}
+\end{enumerate}
+
+\textbf{Answer:} $x = 2, \, y = 5$ \,  
+
+\subsubsection{Example 2}
+
+\textbf{System:}
+\begin{align*}
+x &= y + 3 \\
+2x + y &= 12
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item The first equation gives us $x$ in terms of $y$: $x = y + 3$
+    \item Substitute into the second equation:
+    \begin{align*}
+        2(y + 3) + y &= 12
+    \end{align*}
+    \item Distribute and combine like terms:
+    \begin{align*}
+        2y + 6 + y &= 12 \\
+        3y + 6 &= 12
+    \end{align*}
+    \item Solve for $y$:
+    \begin{align*}
+        3y &= 6 \\
+        y &= 2
+    \end{align*}
+    \item Substitute back to find $x$:
+    \begin{align*}
+        x &= 2 + 3 = 5
+    \end{align*}
+\end{enumerate}
+
+\textbf{Answer:} $x = 5, \, y = 2$ \,  
+
+\subsubsection{Example 3}
+
+\textbf{System:}
+\begin{align*}
+y &= 3x - 2 \\
+2x + 3y &= 16
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item The first equation gives us $y = 3x - 2$
+    \item Substitute into the second equation:
+    \begin{align*}
+        2x + 3(3x - 2) &= 16
+    \end{align*}
+    \item Distribute and combine like terms:
+    \begin{align*}
+        2x + 9x - 6 &= 16 \\
+        11x - 6 &= 16
+    \end{align*}
+    \item Solve for $x$:
+    \begin{align*}
+        11x &= 22 \\
+        x &= 2
+    \end{align*}
+    \item Substitute back to find $y$:
+    \begin{align*}
+        y &= 3(2) - 2 = 4
+    \end{align*}
+\end{enumerate}
+
+\textbf{Answer:} $x = 2, \, y = 4$ \,  
+
+\subsection{Examples 4--6: Elimination Method}
+
+\subsubsection{Example 4}
+
+\textbf{System:}
+\begin{align*}
+2x + y &= 8 \\
+x - y &= 1
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item Notice that the $y$ coefficients are opposites ($+1$ and $-1$). Add the equations:
+    \begin{align*}
+        (2x + y) + (x - y) &= 8 + 1 \\
+        3x &= 9 \\
+        x &= 3
+    \end{align*}
+    \item Substitute $x = 3$ into the second equation:
+    \begin{align*}
+        3 - y &= 1 \\
+        -y &= -2 \\
+        y &= 2
+    \end{align*}
+\end{enumerate}
+
+\textbf{Answer:} $x = 3, \, y = 2$ \,  
+
+\subsubsection{Example 5}
+
+\textbf{System:}
+\begin{align*}
+3x + 2y &= 12 \\
+2x - 2y &= 8
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item The $y$ coefficients are opposites ($+2$ and $-2$). Add the equations:
+    \begin{align*}
+        (3x + 2y) + (2x - 2y) &= 12 + 8 \\
+        5x &= 20 \\
+        x &= 4
+    \end{align*}
+    \item Substitute $x = 4$ into the first equation:
+    \begin{align*}
+        3(4) + 2y &= 12 \\
+        12 + 2y &= 12 \\
+        2y &= 0 \\
+        y &= 0
+    \end{align*}
+\end{enumerate}
+
+\textbf{Answer:} $x = 4, \, y = 0$ \,  
+
+\subsubsection{Example 6}
+
+\textbf{System:}
+\begin{align*}
+4x + 3y &= 18 \\
+2x + 3y &= 12
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item The $y$ coefficients are the same ($+3$). Subtract the second equation from the first:
+    \begin{align*}
+        (4x + 3y) - (2x + 3y) &= 18 - 12 \\
+        2x &= 6 \\
+        x &= 3
+    \end{align*}
+    \item Substitute $x = 3$ into the second equation:
+    \begin{align*}
+        2(3) + 3y &= 12 \\
+        6 + 3y &= 12 \\
+        3y &= 6 \\
+        y &= 2
+    \end{align*}
+\end{enumerate}
+
+\textbf{Answer:} $x = 3, \, y = 2$ \,  
+
+\subsection{Examples 7--8: Graphing Method}
+
+\subsubsection{Example 7}
+
+\textbf{System:}
+\begin{align*}
+y &= x + 1 \\
+y &= -x + 5
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item For graphing, we find where the two lines intersect. Set the equations equal:
+    \begin{align*}
+        x + 1 &= -x + 5
+    \end{align*}
+    \item Solve for $x$:
+    \begin{align*}
+        2x &= 4 \\
+        x &= 2
+    \end{align*}
+    \item Substitute back into either equation:
+    \begin{align*}
+        y &= 2 + 1 = 3
+    \end{align*}
+    \item The lines intersect at the point $(2, 3)$
+\end{enumerate}
+
+\textbf{Answer:} $x = 2, \, y = 3$ \,  
+
+\subsubsection{Example 8}
+
+\textbf{System:}
+\begin{align*}
+y &= 2x - 1 \\
+y &= -x + 5
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item Set the equations equal:
+    \begin{align*}
+        2x - 1 &= -x + 5
+    \end{align*}
+    \item Solve for $x$:
+    \begin{align*}
+        3x &= 6 \\
+        x &= 2
+    \end{align*}
+    \item Substitute back into either equation:
+    \begin{align*}
+        y &= 2(2) - 1 = 3
+    \end{align*}
+    \item The lines intersect at $(2, 3)$
+\end{enumerate}
+
+\textbf{Answer:} $x = 2, \, y = 3$ \,  
+
+\subsection{Examples 9--10: Special Cases}
+
+\subsubsection{Example 9: No Solution (Parallel Lines)}
+
+\textbf{System:}
+\begin{align*}
+y &= 2x + 3 \\
+y &= 2x + 1
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item Both equations have the same slope ($m = 2$) but different $y$-intercepts ($b = 3$ and $b = 1$)
+    \item These are parallel lines that never intersect
+    \item Attempting to solve algebraically:
+    \begin{align*}
+        2x + 3 &= 2x + 1 \\
+        3 &= 1
+    \end{align*}
+    \item This is a contradiction, confirming there is no solution
+\end{enumerate}
+
+\textbf{Answer:} \textbf{No solution} (parallel lines do not intersect) \,  
+
+\subsubsection{Example 10: Infinitely Many Solutions (Identical Lines)}
+
+\textbf{System:}
+\begin{align*}
+2x + 4y &= 8 \\
+x + 2y &= 4
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item Multiply the second equation by 2:
+    \begin{align*}
+        2(x + 2y) &= 2(4) \\
+        2x + 4y &= 8
+    \end{align*}
+    \item Both equations are now identical
+    \item These are the same line, so every point on the line is a solution
+\end{enumerate}
+
+\textbf{Answer:} \textbf{Infinitely many solutions} (the equations represent the same line) \,  
+
+\section{5 Word Problems with Full Solutions}
+
+\subsection{Problem 1: Ticket Pricing}
+
+\textbf{Problem Statement:}
+
+A theater sells adult and child tickets. Adult tickets cost \$6 each and child tickets cost \$3 each. Ticket sales totaled \$135. There were 25 tickets sold in total. How many adult tickets and how many child tickets were sold?
+
+\textbf{Setting up the System:}
+
+Let $a =$ number of adult tickets and $c =$ number of child tickets.
+
+\begin{align*}
+6a + 3c &= 135 \quad \text{(total revenue)} \\
+a + c &= 25 \quad \text{(total tickets)}
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item From the second equation, solve for $c$:
+    \begin{align*}
+        c = 25 - a
+    \end{align*}
+    \item Substitute into the first equation:
+    \begin{align*}
+        6a + 3(25 - a) &= 135 \\
+        6a + 75 - 3a &= 135 \\
+        3a + 75 &= 135 \\
+        3a &= 60 \\
+        a &= 20
+    \end{align*}
+    \item Find $c$:
+    \begin{align*}
+        c = 25 - 20 = 5
+    \end{align*}
+    \item Check: $6(20) + 3(5) = 120 + 15 = 135$ \,  and $20 + 5 = 25$ \, 
+\end{enumerate}
+
+\textbf{Answer:} \textbf{20 adult tickets and 5 child tickets} \,  
+
+\subsection{Problem 2: Subscription Plans}
+
+\textbf{Problem Statement:}
+
+A company offers two subscription plans: Premium at \$15 per month and Basic at \$8 per month. In one month, 12 subscriptions were sold for a total of \$138. How many Premium and Basic subscriptions were sold?
+
+\textbf{Setting up the System:}
+
+Let $p =$ number of Premium subscriptions and $b =$ number of Basic subscriptions.
+
+\begin{align*}
+15p + 8b &= 138 \quad \text{(total revenue)} \\
+p + b &= 12 \quad \text{(total subscriptions)}
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item From the second equation:
+    \begin{align*}
+        b = 12 - p
+    \end{align*}
+    \item Substitute into the first equation:
+    \begin{align*}
+        15p + 8(12 - p) &= 138 \\
+        15p + 96 - 8p &= 138 \\
+        7p + 96 &= 138 \\
+        7p &= 42 \\
+        p &= 6
+    \end{align*}
+    \item Find $b$:
+    \begin{align*}
+        b = 12 - 6 = 6
+    \end{align*}
+    \item Check: $15(6) + 8(6) = 90 + 48 = 138$ \,  and $6 + 6 = 12$ \, 
+\end{enumerate}
+
+\textbf{Answer:} \textbf{6 Premium subscriptions and 6 Basic subscriptions} \,  
+
+\subsection{Problem 3: Distance/Rate/Time}
+
+\textbf{Problem Statement:}
+
+A fast car and a slow car travel toward each other on a highway. Together, they cover 100 miles. The difference in distances they travel is 20 miles (the fast car travels 20 miles more). How far does each car travel?
+
+\textbf{Setting up the System:}
+
+Let $f =$ distance traveled by the fast car and $s =$ distance traveled by the slow car.
+
+\begin{align*}
+f + s &= 100 \quad \text{(total distance)} \\
+f - s &= 20 \quad \text{(difference)}
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item Add the two equations to eliminate $s$:
+    \begin{align*}
+        (f + s) + (f - s) &= 100 + 20 \\
+        2f &= 120 \\
+        f &= 60
+    \end{align*}
+    \item Substitute back:
+    \begin{align*}
+        60 + s &= 100 \\
+        s &= 40
+    \end{align*}
+    \item Check: $60 + 40 = 100$ \,  and $60 - 40 = 20$ \, 
+\end{enumerate}
+
+\textbf{Answer:} \textbf{The fast car travels 60 miles and the slow car travels 40 miles} \,  
+
+\subsection{Problem 4: Investment}
+
+\textbf{Problem Statement:}
+
+An investor deposits a total of \$5,000 in two accounts. One account earns 3\% interest annually and the other earns 5\% interest annually. If the combined annual interest is \$190, how much is invested in each account?
+
+\textbf{Setting up the System:}
+
+Let $x =$ amount invested at 3\% and $y =$ amount invested at 5\%.
+
+\begin{align*}
+x + y &= 5000 \quad \text{(total investment)} \\
+0.03x + 0.05y &= 190 \quad \text{(total interest)}
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item From the first equation:
+    \begin{align*}
+        x = 5000 - y
+    \end{align*}
+    \item Substitute into the second equation:
+    \begin{align*}
+        0.03(5000 - y) + 0.05y &= 190 \\
+        150 - 0.03y + 0.05y &= 190 \\
+        150 + 0.02y &= 190 \\
+        0.02y &= 40 \\
+        y &= 2000
+    \end{align*}
+    \item Find $x$:
+    \begin{align*}
+        x = 5000 - 2000 = 3000
+    \end{align*}
+    \item Check: $3000 + 2000 = 5000$ \,  and $0.03(3000) + 0.05(2000) = 90 + 100 = 190$ \, 
+\end{enumerate}
+
+\textbf{Answer:} \textbf{\$3,000 invested at 3\% and \$2,000 invested at 5\%} \,  
+
+\subsection{Problem 5: Mixture}
+
+\textbf{Problem Statement:}
+
+A chemist mixes two solutions to create a 15-liter mixture. One solution is 15\% pure and the other is 30\% pure. The final mixture is 20\% pure. How many liters of each solution are used?
+
+\textbf{Setting up the System:}
+
+Let $a =$ liters of the 15\% solution and $b =$ liters of the 30\% solution.
+
+\begin{align*}
+a + b &= 15 \quad \text{(total volume)} \\
+0.15a + 0.30b &= 0.20(15) \quad \text{(pure substance)}
+\end{align*}
+
+Simplifying the second equation:
+\begin{align*}
+0.15a + 0.30b &= 3
+\end{align*}
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item From the first equation:
+    \begin{align*}
+        a = 15 - b
+    \end{align*}
+    \item Substitute into the second equation:
+    \begin{align*}
+        0.15(15 - b) + 0.30b &= 3 \\
+        2.25 - 0.15b + 0.30b &= 3 \\
+        2.25 + 0.15b &= 3 \\
+        0.15b &= 0.75 \\
+        b &= 5
+    \end{align*}
+    \item Find $a$:
+    \begin{align*}
+        a = 15 - 5 = 10
+    \end{align*}
+    \item Check: $10 + 5 = 15$ \,  and $0.15(10) + 0.30(5) = 1.5 + 1.5 = 3$ \, 
+\end{enumerate}
+
+\textbf{Answer:} \textbf{10 liters of the 15\% solution and 5 liters of the 30\% solution} \,  
+
+\section{Summary of Key Techniques}
+
+\subsection{Substitution Method}
+
+\textbf{When to use:} When one variable is already isolated or can be easily isolated.
+
+\textbf{Steps:}
+\begin{enumerate}
+    \item Solve one equation for one variable
+    \item Substitute the expression into the other equation
+    \item Solve for the remaining variable
+    \item Back-substitute to find the other variable
+\end{enumerate}
+
+\subsection{Elimination Method}
+
+\textbf{When to use:} When the coefficients of a variable are opposites or can be made opposites by multiplying.
+
+\textbf{Steps:}
+\begin{enumerate}
+    \item Multiply one or both equations so that a variable's coefficients are opposites
+    \item Add or subtract the equations to eliminate that variable
+    \item Solve for the remaining variable
+    \item Back-substitute to find the other variable
+\end{enumerate}
+
+\subsection{Graphing Method}
+
+\textbf{When to use:} When a visual solution is helpful or when the equations are in slope-intercept form.
+
+\textbf{Steps:}
+\begin{enumerate}
+    \item Write both equations in slope-intercept form ($y = mx + b$)
+    \item Graph both lines on the same coordinate plane
+    \item Find the intersection point
+    \item Read the $x$- and $y$-coordinates of the intersection
+\end{enumerate}
+
+\subsection{Special Cases}
+
+\textbf{No Solution:} The lines are parallel (same slope, different $y$-intercepts). When solving algebraically, you get a contradiction.
+
+\textbf{Infinitely Many Solutions:} The equations represent the same line. When solving algebraically, you get an identity (like $0 = 0$).
+
+\textbf{One Solution:} The lines intersect at exactly one point (most common case).
+
+\end{document}

@@ -1,0 +1,585 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{GED Math Counting \& Probability Solutions}
+\lhead{Solutions}
+\cfoot{\thepage}
+
+\title{\Large \textbf{GED Mathematics Solutions} \\ Counting, Permutations, Combinations, and Probability}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{How to Use This Document}
+This document provides complete step-by-step solutions for all 50 questions in the GED Math Counting and Probability worksheet. Each solution shows the mathematical reasoning and calculation process. Review these solutions to understand the concepts and problem-solving methods.
+
+\vspace{0.5cm}
+\noindent\rule{\textwidth}{1pt}
+
+\section{Systematic Counting and Fundamental Counting Principle}
+
+\subsection*{Question 1}
+\textbf{Problem:} A restaurant offers 4 different appetizers, 6 different main courses, and 3 different desserts. How many different three-course meals can be ordered?
+
+\textbf{Solution:} Use the Fundamental Counting Principle: multiply the number of choices at each stage.
+\begin{align*}
+\text{Total meals} &= 4 \times 6 \times 3 \\
+&= 72
+\end{align*}
+\textbf{Answer:} 72 different three-course meals
+
+\subsection*{Question 2}
+\textbf{Problem:} A license plate consists of 2 letters followed by 3 digits. How many different license plates can be made if repetition is allowed?
+
+\textbf{Solution:} Each position has independent choices.
+\begin{align*}
+\text{Total plates} &= 26 \times 26 \times 10 \times 10 \times 10 \\
+&= 26^2 \times 10^3 \\
+&= 676 \times 1000 \\
+&= 676{,}000
+\end{align*}
+\textbf{Answer:} 676,000 different license plates
+
+\subsection*{Question 3}
+\textbf{Problem:} A school is assigning ID numbers that consist of 1 letter followed by 4 digits. How many different ID numbers are possible?
+
+\textbf{Solution:} Apply the Fundamental Counting Principle.
+\begin{align*}
+\text{Total ID numbers} &= 26 \times 10 \times 10 \times 10 \times 10 \\
+&= 26 \times 10^4 \\
+&= 26 \times 10{,}000 \\
+&= 260{,}000
+\end{align*}
+\textbf{Answer:} 260,000 different ID numbers
+
+\subsection*{Question 4}
+\textbf{Problem:} A clothing store stocks shirts in 5 colors, pants in 4 sizes, and shoes in 6 styles. How many different outfits can be created?
+
+\textbf{Solution:}
+\begin{align*}
+\text{Total outfits} &= 5 \times 4 \times 6 \\
+&= 120
+\end{align*}
+\textbf{Answer:} 120 different outfits
+
+\subsection*{Question 5}
+\textbf{Problem:} A password must consist of 2 uppercase letters followed by 3 digits. How many different passwords are possible?
+
+\textbf{Solution:}
+\begin{align*}
+\text{Total passwords} &= 26 \times 26 \times 10 \times 10 \times 10 \\
+&= 676 \times 1000 \\
+&= 676{,}000
+\end{align*}
+\textbf{Answer:} 676,000 different passwords
+
+\subsection*{Question 6}
+\textbf{Problem:} At a sandwich shop, customers choose: bread (5 options), cheese (3 options), meat (4 options), and vegetables (6 options). How many different sandwiches can be made?
+
+\textbf{Solution:}
+\begin{align*}
+\text{Total sandwiches} &= 5 \times 3 \times 4 \times 6 \\
+&= 15 \times 24 \\
+&= 360
+\end{align*}
+\textbf{Answer:} 360 different sandwiches
+
+\subsection*{Question 7}
+\textbf{Problem:} A survey has 5 yes/no questions. How many different ways can the survey be completed?
+
+\textbf{Solution:} Each question has 2 choices (yes or no).
+\begin{align*}
+\text{Total ways} &= 2^5 \\
+&= 32
+\end{align*}
+\textbf{Answer:} 32 different ways to complete the survey
+
+\subsection*{Question 8}
+\textbf{Problem:} How many different outfits can be made with 3 hats, 4 shirts, and 5 pairs of pants?
+
+\textbf{Solution:}
+\begin{align*}
+\text{Total outfits} &= 3 \times 4 \times 5 \\
+&= 60
+\end{align*}
+\textbf{Answer:} 60 different outfits
+
+\subsection*{Question 9}
+\textbf{Problem:} A restaurant has 3 types of soda, 2 types of juice, and 4 types of water. How many different beverage choices are available?
+
+\textbf{Solution:}
+\begin{align*}
+\text{Total beverages} &= 3 + 2 + 4 \\
+&= 9
+\end{align*}
+\textbf{Note:} This question requires addition because we are choosing ONE beverage from three categories, not one from each category.
+\textbf{Answer:} 9 different beverage choices
+
+\subsection*{Question 10}
+\textbf{Problem:} A code consists of one color (8 available), followed by one number (0-9), followed by one letter (26 available). How many different codes are possible?
+
+\textbf{Solution:}
+\begin{align*}
+\text{Total codes} &= 8 \times 10 \times 26 \\
+&= 80 \times 26 \\
+&= 2{,}080
+\end{align*}
+\textbf{Answer:} 2,080 different codes
+
+\section{Permutations}
+
+\subsection*{Question 11}
+\textbf{Problem:} In how many ways can 5 students be arranged in a line?
+
+\textbf{Solution:} This is a permutation of 5 objects taken 5 at a time: $P(5,5) = 5!$
+\begin{align*}
+P(5,5) &= 5! \\
+&= 5 \times 4 \times 3 \times 2 \times 1 \\
+&= 120
+\end{align*}
+\textbf{Answer:} 120 ways to arrange 5 students
+
+\subsection*{Question 12}
+\textbf{Problem:} A coach is choosing a captain, co-captain, and treasurer from a team of 8 players. How many ways can these three positions be filled?
+
+\textbf{Solution:} This is a permutation: $P(8,3) = \frac{8!}{(8-3)!} = \frac{8!}{5!}$
+\begin{align*}
+P(8,3) &= 8 \times 7 \times 6 \\
+&= 336
+\end{align*}
+\textbf{Answer:} 336 ways to fill the three positions
+
+\subsection*{Question 13}
+\textbf{Problem:} How many different 4-letter arrangements can be made from the letters A, B, C, and D (using each letter exactly once)?
+
+\textbf{Solution:} This is $P(4,4) = 4!$
+\begin{align*}
+P(4,4) &= 4! \\
+&= 4 \times 3 \times 2 \times 1 \\
+&= 24
+\end{align*}
+\textbf{Answer:} 24 different 4-letter arrangements
+
+\subsection*{Question 14}
+\textbf{Problem:} In how many ways can 6 people be seated in 6 chairs around a conference table?
+
+\textbf{Solution:} This is a permutation: $P(6,6) = 6!$
+\begin{align*}
+P(6,6) &= 6! \\
+&= 6 \times 5 \times 4 \times 3 \times 2 \times 1 \\
+&= 720
+\end{align*}
+\textbf{Answer:} 720 ways to seat 6 people
+
+\subsection*{Question 15}
+\textbf{Problem:} A competition has 10 participants. In how many ways can first, second, and third place be awarded?
+
+\textbf{Solution:} This is $P(10,3)$
+\begin{align*}
+P(10,3) &= 10 \times 9 \times 8 \\
+&= 720
+\end{align*}
+\textbf{Answer:} 720 ways to award the three places
+
+\subsection*{Question 16}
+\textbf{Problem:} A playlist has 7 different songs. How many different ways can the songs be arranged?
+
+\textbf{Solution:} This is $P(7,7) = 7!$
+\begin{align*}
+P(7,7) &= 7! \\
+&= 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 \\
+&= 5{,}040
+\end{align*}
+\textbf{Answer:} 5,040 ways to arrange 7 songs
+
+\subsection*{Question 17}
+\textbf{Problem:} How many different 3-digit codes can be made from the digits 1, 2, 3, 4, 5, and 6 (without repetition)?
+
+\textbf{Solution:} This is $P(6,3)$
+\begin{align*}
+P(6,3) &= 6 \times 5 \times 4 \\
+&= 120
+\end{align*}
+\textbf{Answer:} 120 different 3-digit codes
+
+\subsection*{Question 18}
+\textbf{Problem:} A teacher is arranging 4 students in a row for a photo. How many different arrangements are possible?
+
+\textbf{Solution:} This is $P(4,4) = 4!$
+\begin{align*}
+P(4,4) &= 4! \\
+&= 4 \times 3 \times 2 \times 1 \\
+&= 24
+\end{align*}
+\textbf{Answer:} 24 different arrangements
+
+\subsection*{Question 19}
+\textbf{Problem:} A company needs to select a president, vice-president, and secretary from 9 employees. In how many ways can this be done?
+
+\textbf{Solution:} This is $P(9,3)$
+\begin{align*}
+P(9,3) &= 9 \times 8 \times 7 \\
+&= 504
+\end{align*}
+\textbf{Answer:} 504 ways to select the three positions
+
+\subsection*{Question 20}
+\textbf{Problem:} How many 5-letter arrangements can be made from the letters in the word WORLD (using each letter at most once)?
+
+\textbf{Solution:} The word WORLD has 5 distinct letters. We're using all 5, so this is $P(5,5) = 5!$
+\begin{align*}
+P(5,5) &= 5! \\
+&= 5 \times 4 \times 3 \times 2 \times 1 \\
+&= 120
+\end{align*}
+\textbf{Answer:} 120 different 5-letter arrangements
+
+\section{Combinations}
+
+\subsection*{Question 21}
+\textbf{Problem:} A committee of 3 people is being chosen from a group of 8 people. How many different committees can be formed?
+
+\textbf{Solution:} This is a combination: $C(8,3) = \binom{8}{3} = \frac{8!}{3!(8-3)!} = \frac{8!}{3! \cdot 5!}$
+\begin{align*}
+C(8,3) &= \frac{8 \times 7 \times 6}{3 \times 2 \times 1} \\
+&= \frac{336}{6} \\
+&= 56
+\end{align*}
+\textbf{Answer:} 56 different committees
+
+\subsection*{Question 22}
+\textbf{Problem:} How many ways can 4 books be selected from a shelf of 10 books?
+
+\textbf{Solution:} This is $C(10,4)$
+\begin{align*}
+C(10,4) &= \frac{10!}{4! \cdot 6!} \\
+&= \frac{10 \times 9 \times 8 \times 7}{4 \times 3 \times 2 \times 1} \\
+&= \frac{5{,}040}{24} \\
+&= 210
+\end{align*}
+\textbf{Answer:} 210 ways to select 4 books
+
+\subsection*{Question 23}
+\textbf{Problem:} In a lottery, 6 numbers are chosen from 1 to 49. How many different lottery tickets are possible?
+
+\textbf{Solution:} This is $C(49,6)$
+\begin{align*}
+C(49,6) &= \frac{49!}{6! \cdot 43!} \\
+&= \frac{49 \times 48 \times 47 \times 46 \times 45 \times 44}{6 \times 5 \times 4 \times 3 \times 2 \times 1} \\
+&= \frac{10{,}068{,}347{,}520}{720} \\
+&= 13{,}983{,}816
+\end{align*}
+\textbf{Answer:} 13,983,816 different lottery tickets
+
+\subsection*{Question 24}
+\textbf{Problem:} A student must choose 2 elective classes from 5 available electives. How many different combinations of electives are possible?
+
+\textbf{Solution:} This is $C(5,2)$
+\begin{align*}
+C(5,2) &= \frac{5!}{2! \cdot 3!} \\
+&= \frac{5 \times 4}{2 \times 1} \\
+&= \frac{20}{2} \\
+&= 10
+\end{align*}
+\textbf{Answer:} 10 different combinations of electives
+
+\subsection*{Question 25}
+\textbf{Problem:} How many different 5-card hands can be dealt from a standard 52-card deck?
+
+\textbf{Solution:} This is $C(52,5)$
+\begin{align*}
+C(52,5) &= \frac{52!}{5! \cdot 47!} \\
+&= \frac{52 \times 51 \times 50 \times 49 \times 48}{5 \times 4 \times 3 \times 2 \times 1} \\
+&= \frac{311{,}875{,}200}{120} \\
+&= 2{,}598{,}960
+\end{align*}
+\textbf{Answer:} 2,598,960 different 5-card hands
+
+\subsection*{Question 26}
+\textbf{Problem:} A team is choosing 4 starters from a roster of 12 players. How many ways can the starting team be selected?
+
+\textbf{Solution:} This is $C(12,4)$
+\begin{align*}
+C(12,4) &= \frac{12!}{4! \cdot 8!} \\
+&= \frac{12 \times 11 \times 10 \times 9}{4 \times 3 \times 2 \times 1} \\
+&= \frac{11{,}880}{24} \\
+&= 495
+\end{align*}
+\textbf{Answer:} 495 ways to select the starting team
+
+\subsection*{Question 27}
+\textbf{Problem:} How many ways can 3 toppings be selected from 8 available pizza toppings?
+
+\textbf{Solution:} This is $C(8,3)$
+\begin{align*}
+C(8,3) &= \frac{8!}{3! \cdot 5!} \\
+&= \frac{8 \times 7 \times 6}{3 \times 2 \times 1} \\
+&= \frac{336}{6} \\
+&= 56
+\end{align*}
+\textbf{Answer:} 56 ways to select 3 toppings
+
+\subsection*{Question 28}
+\textbf{Problem:} A store is selecting 6 products from a catalog of 20 products to feature in an advertisement. How many different selections are possible?
+
+\textbf{Solution:} This is $C(20,6)$
+\begin{align*}
+C(20,6) &= \frac{20!}{6! \cdot 14!} \\
+&= \frac{20 \times 19 \times 18 \times 17 \times 16 \times 15}{6 \times 5 \times 4 \times 3 \times 2 \times 1} \\
+&= \frac{27{,}907{,}200}{720} \\
+&= 38{,}760
+\end{align*}
+\textbf{Answer:} 38,760 different selections
+
+\subsection*{Question 29}
+\textbf{Problem:} How many ways can a person choose 2 vegetables from a list of 7 vegetables?
+
+\textbf{Solution:} This is $C(7,2)$
+\begin{align*}
+C(7,2) &= \frac{7!}{2! \cdot 5!} \\
+&= \frac{7 \times 6}{2 \times 1} \\
+&= \frac{42}{2} \\
+&= 21
+\end{align*}
+\textbf{Answer:} 21 ways to choose 2 vegetables
+
+\subsection*{Question 30}
+\textbf{Problem:} A committee needs to select 5 members from a group of 15 volunteers. How many different committees are possible?
+
+\textbf{Solution:} This is $C(15,5)$
+\begin{align*}
+C(15,5) &= \frac{15!}{5! \cdot 10!} \\
+&= \frac{15 \times 14 \times 13 \times 12 \times 11}{5 \times 4 \times 3 \times 2 \times 1} \\
+&= \frac{360{,}360}{120} \\
+&= 3{,}003
+\end{align*}
+\textbf{Answer:} 3,003 different committees
+
+\section{Distinguishing Between Permutations and Combinations}
+
+\subsection*{Question 31}
+\textbf{Problem:} Is the following a permutation or combination problem? ``How many ways can 3 students be chosen to represent the class?''
+
+\textbf{Solution:} This is a \textbf{combination} because the order in which the students are chosen does not matter. We are simply selecting a group of 3 students.
+
+\textbf{Answer:} Combination
+
+\subsection*{Question 32}
+\textbf{Problem:} Is the following a permutation or combination problem? ``In how many ways can 4 people be arranged in a line?''
+
+\textbf{Solution:} This is a \textbf{permutation} because the order matters. Different arrangements of the same 4 people represent different outcomes.
+
+\textbf{Answer:} Permutation
+
+\subsection*{Question 33}
+\textbf{Problem:} A student is choosing 5 books from 8 books to take on a trip. Is this a permutation or combination? How many ways can this be done?
+
+\textbf{Solution:} This is a \textbf{combination} because the order in which the books are selected does not matter. We use the combination formula: $C(8,5)$
+\begin{align*}
+C(8,5) &= \frac{8!}{5! \cdot 3!} \\
+&= \frac{8 \times 7 \times 6}{3 \times 2 \times 1} \\
+&= \frac{336}{6} \\
+&= 56
+\end{align*}
+\textbf{Answer:} Combination; 56 ways
+
+\subsection*{Question 34}
+\textbf{Problem:} A principal is selecting a class president, vice-president, and secretary from 20 students. Is this a permutation or combination? How many ways can this be done?
+
+\textbf{Solution:} This is a \textbf{permutation} because the positions are distinct—being president is different from being vice-president. Order matters. We use $P(20,3)$:
+\begin{align*}
+P(20,3) &= 20 \times 19 \times 18 \\
+&= 6{,}840
+\end{align*}
+\textbf{Answer:} Permutation; 6,840 ways
+
+\subsection*{Question 35}
+\textbf{Problem:} In how many ways can a coach select 6 players from 14 for a game? Is this a permutation or combination?
+
+\textbf{Solution:} This is a \textbf{combination} because the order of selection does not matter. All players selected will be on the team with no distinct roles. We use $C(14,6)$:
+\begin{align*}
+C(14,6) &= \frac{14!}{6! \cdot 8!} \\
+&= \frac{14 \times 13 \times 12 \times 11 \times 10 \times 9}{6 \times 5 \times 4 \times 3 \times 2 \times 1} \\
+&= \frac{2{,}162{,}160}{720} \\
+&= 3{,}003
+\end{align*}
+\textbf{Answer:} Combination; 3,003 ways
+
+\subsection*{Question 36}
+\textbf{Problem:} Is it a permutation or combination to arrange 7 distinct paintings on a wall?
+
+\textbf{Solution:} This is a \textbf{permutation} because the order of the paintings on the wall matters. Different arrangements represent different displays. We would calculate $P(7,7) = 7! = 5{,}040$.
+
+\textbf{Answer:} Permutation
+
+\section{Basic Probability}
+
+\subsection*{Question 37}
+\textbf{Problem:} A fair die is rolled. What is the probability of rolling a 4?
+
+\textbf{Solution:} A die has 6 equally likely outcomes: 1, 2, 3, 4, 5, 6. Only one outcome is a 4.
+\begin{align*}
+P(\text{rolling a 4}) &= \frac{\text{number of favorable outcomes}}{\text{total number of outcomes}} \\
+&= \frac{1}{6}
+\end{align*}
+\textbf{Answer:} $\frac{1}{6}$ or approximately 0.167 or 16.7\%
+
+\subsection*{Question 38}
+\textbf{Problem:} A bag contains 5 red marbles and 3 blue marbles. If one marble is drawn at random, what is the probability that it is red?
+
+\textbf{Solution:} Total marbles = 5 + 3 = 8. Red marbles = 5.
+\begin{align*}
+P(\text{red}) &= \frac{5}{8}
+\end{align*}
+\textbf{Answer:} $\frac{5}{8}$ or 0.625 or 62.5\%
+
+\subsection*{Question 39}
+\textbf{Problem:} A spinner is divided into 8 equal sections numbered 1 through 8. What is the probability of spinning a number less than 5?
+
+\textbf{Solution:} Numbers less than 5: 1, 2, 3, 4 (4 favorable outcomes). Total outcomes = 8.
+\begin{align*}
+P(\text{less than 5}) &= \frac{4}{8} = \frac{1}{2}
+\end{align*}
+\textbf{Answer:} $\frac{1}{2}$ or 0.5 or 50\%
+
+\subsection*{Question 40}
+\textbf{Problem:} A standard deck of cards has 52 cards. What is the probability of drawing a heart?
+
+\textbf{Solution:} A standard deck has 13 hearts out of 52 total cards.
+\begin{align*}
+P(\text{heart}) &= \frac{13}{52} = \frac{1}{4}
+\end{align*}
+\textbf{Answer:} $\frac{1}{4}$ or 0.25 or 25\%
+
+\subsection*{Question 41}
+\textbf{Problem:} A coin is flipped. What is the probability of getting tails?
+
+\textbf{Solution:} A coin has 2 equally likely outcomes: heads and tails. One is tails.
+\begin{align*}
+P(\text{tails}) &= \frac{1}{2}
+\end{align*}
+\textbf{Answer:} $\frac{1}{2}$ or 0.5 or 50\%
+
+\subsection*{Question 42}
+\textbf{Problem:} A box contains 4 green, 6 yellow, and 5 red balls. If one ball is randomly selected, what is the probability that it is yellow?
+
+\textbf{Solution:} Total balls = 4 + 6 + 5 = 15. Yellow balls = 6.
+\begin{align*}
+P(\text{yellow}) &= \frac{6}{15} = \frac{2}{5}
+\end{align*}
+\textbf{Answer:} $\frac{2}{5}$ or 0.4 or 40\%
+
+\subsection*{Question 43}
+\textbf{Problem:} A number is randomly selected from 1 to 20. What is the probability that it is a multiple of 3?
+
+\textbf{Solution:} Multiples of 3 from 1 to 20: 3, 6, 9, 12, 15, 18 (6 multiples). Total outcomes = 20.
+\begin{align*}
+P(\text{multiple of 3}) &= \frac{6}{20} = \frac{3}{10}
+\end{align*}
+\textbf{Answer:} $\frac{3}{10}$ or 0.3 or 30\%
+
+\subsection*{Question 44}
+\textbf{Problem:} A fair die is rolled. What is the probability of rolling a number greater than 4?
+
+\textbf{Solution:} Numbers greater than 4 on a die: 5, 6 (2 favorable outcomes). Total outcomes = 6.
+\begin{align*}
+P(\text{greater than 4}) &= \frac{2}{6} = \frac{1}{3}
+\end{align*}
+\textbf{Answer:} $\frac{1}{3}$ or approximately 0.333 or 33.3\%
+
+\subsection*{Question 45}
+\textbf{Problem:} A bag contains 8 candies: 3 chocolate and 5 vanilla. What is the probability of randomly selecting a vanilla candy?
+
+\textbf{Solution:} Total candies = 8. Vanilla candies = 5.
+\begin{align*}
+P(\text{vanilla}) &= \frac{5}{8}
+\end{align*}
+\textbf{Answer:} $\frac{5}{8}$ or 0.625 or 62.5\%
+
+\subsection*{Question 46}
+\textbf{Problem:} A spinner has 10 equal sections: 4 are blue, 3 are red, and 3 are green. What is the probability of spinning blue?
+
+\textbf{Solution:} Blue sections = 4. Total sections = 10.
+\begin{align*}
+P(\text{blue}) &= \frac{4}{10} = \frac{2}{5}
+\end{align*}
+\textbf{Answer:} $\frac{2}{5}$ or 0.4 or 40\%
+
+\section{Independent and Dependent Events}
+
+\subsection*{Question 47}
+\textbf{Problem:} A fair coin is flipped twice. What is the probability of getting heads both times? (These are independent events.)
+
+\textbf{Solution:} For independent events, multiply probabilities. 
+\begin{align*}
+P(\text{heads on first flip}) &= \frac{1}{2} \\
+P(\text{heads on second flip}) &= \frac{1}{2} \\
+P(\text{both heads}) &= P(\text{first heads}) \times P(\text{second heads}) \\
+&= \frac{1}{2} \times \frac{1}{2} \\
+&= \frac{1}{4}
+\end{align*}
+\textbf{Answer:} $\frac{1}{4}$ or 0.25 or 25\%
+
+\subsection*{Question 48}
+\textbf{Problem:} A bag contains 4 red marbles and 6 blue marbles. If two marbles are drawn with replacement, what is the probability that both are red?
+
+\textbf{Solution:} With replacement, the events are independent. Total marbles = 10.
+\begin{align*}
+P(\text{first red}) &= \frac{4}{10} = \frac{2}{5} \\
+P(\text{second red | with replacement}) &= \frac{4}{10} = \frac{2}{5} \\
+P(\text{both red}) &= \frac{2}{5} \times \frac{2}{5} \\
+&= \frac{4}{25}
+\end{align*}
+\textbf{Answer:} $\frac{4}{25}$ or 0.16 or 16\%
+
+\subsection*{Question 49}
+\textbf{Problem:} Two cards are drawn from a standard deck without replacement. What is the probability that both are hearts?
+
+\textbf{Solution:} Without replacement, the events are dependent. The deck has 13 hearts out of 52 cards.
+\begin{align*}
+P(\text{first heart}) &= \frac{13}{52} = \frac{1}{4} \\
+P(\text{second heart | first was heart}) &= \frac{12}{51} = \frac{4}{17} \\
+P(\text{both hearts}) &= \frac{1}{4} \times \frac{4}{17} \\
+&= \frac{4}{68} \\
+&= \frac{1}{17}
+\end{align*}
+\textbf{Answer:} $\frac{1}{17}$ or approximately 0.0588 or 5.88\%
+
+\subsection*{Question 50}
+\textbf{Problem:} A die is rolled, and then a coin is flipped. What is the probability of rolling a 3 and flipping heads?
+
+\textbf{Solution:} These are independent events from different experiments.
+\begin{align*}
+P(\text{rolling a 3}) &= \frac{1}{6} \\
+P(\text{flipping heads}) &= \frac{1}{2} \\
+P(\text{rolling 3 AND flipping heads}) &= \frac{1}{6} \times \frac{1}{2} \\
+&= \frac{1}{12}
+\end{align*}
+\textbf{Answer:} $\frac{1}{12}$ or approximately 0.0833 or 8.33\%
+
+\subsection*{Question 51 - Bonus}
+\textbf{Problem:} A bag contains 3 green and 5 yellow balls. If two balls are drawn without replacement, what is the probability that both are yellow?
+
+\textbf{Solution:} Without replacement, the events are dependent. Total balls = 8.
+\begin{align*}
+P(\text{first yellow}) &= \frac{5}{8} \\
+P(\text{second yellow | first was yellow}) &= \frac{4}{7} \\
+P(\text{both yellow}) &= \frac{5}{8} \times \frac{4}{7} \\
+&= \frac{20}{56} \\
+&= \frac{5}{14}
+\end{align*}
+\textbf{Answer:} $\frac{5}{14}$ or approximately 0.357 or 35.7\%
+
+\end{document}

@@ -1,0 +1,7 @@
+1 gallon = 3.79 litres
+
+3 gallons = 3(3.79) = 11.37 litres
+
+so 11.37/0.355 = 32
+
+therefore, 32 containers are needed.

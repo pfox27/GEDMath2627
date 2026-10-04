@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Part A: Reading and Interpreting Tables (Solutions 1-10)}{2}{section.1}%
+\contentsline {section}{\numberline {2}Part B: Box Plots and Data Interpretation (Solutions 11-20)}{5}{section.2}%
+\contentsline {section}{\numberline {3}Part C: Combining Multiple Data Sources (Solutions 21-30)}{8}{section.3}%
+\contentsline {section}{\numberline {4}Part D: Mean, Median, and Mode (Solutions 31-40)}{12}{section.4}%
+\contentsline {section}{\numberline {5}Part E: Weighted Averages and Complex Problems (Solutions 41-50)}{16}{section.5}%
+\contentsline {section}{\numberline {6}Summary}{20}{section.6}%

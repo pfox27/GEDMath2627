@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Lesson 1: Understanding and Comparing Decimals}{3}{0}{1}
+\beamer@sectionintoc {2}{Lesson 2: Operations with Decimals}{6}{0}{2}
+\beamer@sectionintoc {3}{Lesson 3: Understanding Fractions}{9}{0}{3}
+\beamer@sectionintoc {4}{Lesson 4: Operations with Fractions}{12}{0}{4}
+\beamer@sectionintoc {5}{Lesson 5: Converting Between Fractions and Decimals}{15}{0}{5}
+\beamer@sectionintoc {6}{Lesson 6: Applications of Decimals and Fractions}{18}{0}{6}
+\beamer@sectionintoc {7}{Exit Ticket \& Practice}{20}{0}{7}

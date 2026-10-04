@@ -1,0 +1,79 @@
+% =============================================================
+% GED Geometry Practice — 20 Questions with Solutions
+% Printable worksheet: Questions first, then full solutions
+% =============================================================
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes,arrows.meta,calc,positioning}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=6pt}
+\newcommand{\degree}{^\circ}
+
+\title{GED Geometry: Practice Set (20) with Solutions}
+\author{MacLachlan College}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Questions}
+\begin{enumerate}
+% 1–4 Lines/Angles/Triangles
+\item Two angles are supplementary. One measures \(47\degree\). Find the other.
+\item Vertical angles are equal. If one angle is \(3x+11\) and the other is \(5x-27\), find \(x\) and the angle measure.
+\item Triangle angles are \(x,\,2x+10,\,3x-20\). Find the measures.
+\item A right triangle has legs \(9\) and \(12\). Find the hypotenuse.
+
+% 5–8 Quadrilaterals/Polygons
+\item Find the sum of interior angles of a 13-gon.
+\item A regular polygon has interior angle \(162\degree\). How many sides?
+\item Bases of a trapezoid are \(6\) and \(15\), height \(7\). Find the area.
+\item A parallelogram has base \(18\) and height \(5.5\). Find the area.
+
+% 9–12 Circles
+\item A circle has diameter \(14\). Find its circumference in terms of \(\pi\).
+\item Radius \(=10\). Find the area of the circle.
+\item For a central angle \(45\degree\) in a circle of radius \(8\), find arc length.
+\item For a central angle \(90\degree\) in a circle of radius \(6\), find sector area.
+
+% 13–16 Coordinate Geometry
+\item Find the slope of the line through \((-4,3)\) and \((2,-9)\).
+\item Find the distance between \((1,7)\) and \((9,2)\).
+\item Find the midpoint of \(( -3,-1)\) and \((5,11)\).
+\item Write the equation of the line with slope \(m=2\) passing through \(( -1,4)\).
+
+% 17–20 3D Geometry
+\item Find the volume of a cylinder with \(r=4\) and \(h=12\).
+\item Find the surface area of the same cylinder.
+\item A cone has radius \(3\) and height \(10\). Find its volume.
+\item A sphere has radius \(7\). Find its surface area and volume.
+\end{enumerate}
+
+\newpage
+\section*{Solutions}
+\begin{enumerate}
+\item Supplementary sum \(180\degree\Rightarrow 180-47=133\degree\).
+\item Set equal: \(3x+11=5x-27\Rightarrow 38=2x\Rightarrow x=19\). Angle \(=3(19)+11=68\degree\).
+\item \(x+(2x+10)+(3x-20)=180\Rightarrow 6x-10=180\Rightarrow x=31.67\). Angles: \(31.67\degree,\,73.33\degree,\,75\degree\).
+\item \(c=\sqrt{9^2+12^2}=\sqrt{81+144}=15\).
+\item \((13-2)\cdot 180=1980\degree\).
+\item Interior angle \(=\frac{(n-2)180}{n}=162\Rightarrow 180n-360=162n\Rightarrow 18n=360\Rightarrow n=20\).
+\item \(A=\tfrac12(b_1+b_2)h=\tfrac12(6+15)\cdot 7=73.5\).
+\item \(A=bh=18\cdot 5.5=99\).
+\item \(C=\pi d=\pi\cdot 14=14\pi\).
+\item \(A=\pi r^2=\pi(10)^2=100\pi\).
+\item \(s=\frac{45}{360}\cdot 2\pi\cdot 8=2\pi\approx 6.283\).
+\item \(A_s=\frac{90}{360}\pi(6)^2=\tfrac14\cdot 36\pi=9\pi\).
+\item \(m=\frac{-9-3}{2-(-4)}=\frac{-12}{6}=-2\).
+\item \(d=\sqrt{(9-1)^2+(2-7)^2}=\sqrt{64+25}=\sqrt{89}\approx 9.434\).
+\item \(M=\left(\tfrac{-3+5}{2},\tfrac{-1+11}{2}\right)=(1,5)\).
+\item Point-slope: \(y-4=2(x+1)\Rightarrow y=2x+6\).
+\item \(V=\pi r^2h=\pi\cdot 16\cdot 12=192\pi\).
+\item \(SA=2\pi r^2+2\pi rh=2\pi(16)+2\pi(48)=128\pi\).
+\item \(V=\tfrac13\pi r^2h=\tfrac13\pi\cdot 9\cdot 10=30\pi\).
+\item \(SA=4\pi r^2=4\pi(49)=196\pi\). \(V=\tfrac{4}{3}\pi r^3=\tfrac{4}{3}\pi(343)=\tfrac{1372}{3}\pi\approx 1436.76\).
+\end{enumerate}
+
+\end{document}

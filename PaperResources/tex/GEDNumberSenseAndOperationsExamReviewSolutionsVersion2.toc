@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}Basic Level: Fundamental Operations (Questions 1--10)}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Question 1: Order of Operations}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Question 2: Adding Fractions}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Question 3: Subtracting Decimals}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Question 4: Converting Fractions to Decimals}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Question 5: Finding Percentages}{8}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Question 6: Multiplying Fractions}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Question 7: Dividing Fractions}{10}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Question 8: Exponents}{11}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Question 9: Square Roots}{12}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Question 10: Absolute Value}{13}{subsection.1.10}%
+\contentsline {section}{\numberline {2}Intermediate Level: Multi-Step Operations (Questions 11--20)}{15}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Question 11: Complex Order of Operations}{15}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Question 12: Converting Percentages (Discount)}{16}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Question 13: Ratio and Proportion}{17}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Question 14: Multi-Step Percentage}{18}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Question 15: Fraction to Percent}{19}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Question 16: Negative Numbers}{20}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Question 17: Multiplying Negatives}{21}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Question 18: Multiple Fractions}{22}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Question 19: Tax Calculation}{23}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Question 20: Comparing Forms}{24}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Advanced Level: Complex Problem-Solving (Questions 21--30)}{26}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Question 21: Complex Fractions}{26}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Question 22: Exponents}{27}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Question 23: Square Roots}{28}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Question 24: Compound Percent}{29}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Question 25: Advanced Order of Operations}{30}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Question 26: Complex Percentage}{31}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Question 27: Fraction/Decimal/Percent Equivalence}{33}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Question 28: Negative Number Operations}{34}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Question 29: Proportional Reasoning}{35}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Question 30: Simple Interest}{36}{subsection.3.10}%

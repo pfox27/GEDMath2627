@@ -1,0 +1,192 @@
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{booktabs}
+%\usepackage{siunitx}
+\usepackage{array}
+%\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue}
+
+\title{GED Math Practice: Data, Statistics, and Probability}
+\author{Prepared for MacLachlan College --- Instructor: Paul Fox}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\bigskip
+
+\section*{How to Use This Packet}
+There are \textbf{20 problems} covering data types, tables and sampling, graphs, measures of center/spread, boxplots, probability (including conditional), and counting. Work them first without notes, then check the fully worked solutions.
+
+\newpage
+\section{Practice Questions}
+\begin{enumerate}
+
+% 1
+\item A survey records: eye color (blue, brown, green), height (in cm), and number of pets. Classify each variable as categorical, numerical discrete, or numerical continuous. Explain briefly.
+
+% 2
+\item In a class of 28 students, the number who bring lunch from home on a given day is recorded over 10 days as:\\
+$12, 14, 17, 12, 18, 16, 15, 11, 19, 16$.\\
+Create a frequency table for the distinct values and a relative-frequency table rounded to three decimals.
+
+% 3
+\item A company wants to estimate the average commuting time of its 900 employees. Propose a \emph{stratified random sampling} plan and describe one possible source of bias that could still remain.
+
+% 4
+\item Commute times (in minutes) for 12 people are:\\
+$8, 12, 14, 18, 20, 22, 25, 27, 28, 35, 40, 42$.\\
+Using bin width 10 starting at 0, list the histogram bin counts.
+
+% 5
+\item A dot plot shows most data between 60 and 70 with a few values at 45 and 92. Describe the center (approximate), spread, any skewness, and outliers.
+
+% 6
+\item For category counts A: 24, B: 18, C: 8, D: 10, compute the \emph{pie chart} central angle for each category (nearest degree).
+
+% 7
+\item For the data set $4, 7, 7, 8, 10, 12, 15$, compute the mean, median, mode(s), and range. Show steps.
+
+% 8
+\item For the data set $3, 5, 6, 6, 7, 9, 12, 15$, find $Q_1$, $Q_3$, and the interquartile range (IQR). Use the IQR rule to determine if 15 is an outlier.
+
+% 9
+\item The ages (in years) of nine participants are $18, 19, 20, 21, 25, 27, 27, 29, 35$. Compute the mean absolute deviation (MAD) from the mean.
+
+% 10
+\item A five-number summary is: $\min=30$, $Q_1=45$, $\text{Median}=50$, $Q_3=60$, $\max=78$. Sketch in words (no drawing needed) what the boxplot indicates about center and spread, and state what percentage of data lie between 45 and 60.
+
+% 11
+\item A fair six-sided die is rolled once. Find the probability of getting (a) an odd number, (b) a number greater than 4, (c) an odd number or a number greater than 4. Show formulas.
+
+% 12
+\item A bag contains 6 red, 5 blue, and 4 green marbles. Two marbles are drawn \emph{without replacement}. Find the probability that both are blue.
+
+% 13
+\item Two cards are drawn from a standard 52-card deck \emph{without replacement}. Find the probability that both are hearts.
+
+% 14
+\item Two independent coins are flipped three times each (so six flips total). What is the probability of getting exactly 4 heads in the six flips?
+
+% 15
+\item The two-way table summarizes 120 students by grade and whether they participate in after-school clubs.
+\end{enumerate}
+
+\begin{center}
+\begin{tabular}{l|ccc|c}
+ & Participate & Do Not & Total \\\hline
+Grade 9 & 18 & 12 & 30\\
+Grade 10 & 20 & 10 & 30\\
+Grade 11--12 & 36 & 24 & 60\\\hline
+Total & 74 & 46 & 120
+\end{tabular}
+\end{center}
+\begin{enumerate}
+\item Find $P(\text{Participate})$.
+\item Find $P(\text{Participate}\mid \text{Grade 9})$.
+\item Are `Participate' and `Grade 9' independent? Justify numerically.
+\end{enumerate}
+
+\begin{enumerate}
+
+% 16
+\item A password consists of 4 characters chosen from the 26 letters (A--Z) with no repeats. How many possible passwords are there? Now suppose characters can be letters \emph{or} digits 0--9 (36 symbols) with no repeats; how many?
+
+% 17
+\item From 10 applicants, a committee of 4 is chosen. (a) In how many ways can the committee be formed? (b) If two particular people refuse to serve together, how many committees are possible?
+
+% 18
+\item A multiple-choice quiz has 8 questions with 4 choices each. If a student guesses randomly on all questions, what is the probability of getting exactly 5 correct? (Assume independence.)
+
+% 19
+\item In a class, $40\%$ take Art (A), $35\%$ take Music (M), and $15\%$ take both. Find (a) $P(A\cup M)$, (b) $P(\text{neither})$, and (c) $P(A\mid M)$.
+
+% 20
+\item A small factory inspects every 5th item off the line. Name the sampling method and describe a potential risk with this approach. Suggest one improvement.
+\end{enumerate}
+
+\newpage
+\section{Fully Worked Solutions}
+\begin{enumerate}
+
+\item \textbf{Classification.}
+Eye color is \textbf{categorical} (labels). Height is \textbf{numerical continuous} (measured on a scale, can take any real value within a range). Number of pets is \textbf{numerical discrete} (counts: 0,1,2,\dots).
+
+\item \textbf{Tables.}
+Distinct values: 11, 12, 14, 15, 16, 17, 18, 19.\\
+Frequencies: 11:1,\; 12:2,\; 14:1,\; 15:1,\; 16:2,\; 17:1,\; 18:1,\; 19:1. Total $n=10$.\\
+Relative frequencies (to 3 d.p.): 11:0.100,\; 12:0.200,\; 14:0.100,\; 15:0.100,\; 16:0.200,\; 17:0.100,\; 18:0.100,\; 19:0.100.
+
+\item \textbf{Stratified plan.}
+Divide employees into strata (e.g., department or work-site, or full-time vs part-time). Randomly select proportional samples from each stratum (e.g., 10\% from each department). \emph{Possible bias:} nonresponse bias (those with long commutes skip survey) or time-of-day bias (only day-shift sampled). Mitigate with reminders and varied contact times.
+
+\item \textbf{Histogram bins (width 10 from 0).}\\
+Bins [0,10):1 (8); [10,20):3 (12,14,18); [20,30):5 (20,22,25,27,28); [30,40):2 (35,40); [40,50):1 (42).
+
+\item \textbf{Shape description.}
+Center $\approx 65$ (most between 60--70). Spread roughly 45 to 92. Likely slight \emph{right skew} due to large value at 92; values at 45 and 92 may be outliers depending on IQR rule (insufficient data to confirm but they are potential outliers).
+
+\item \textbf{Pie angles.} Total $=24+18+8+10=60$. Angle $=\text{fraction}\times 360^\circ$.\\
+A: $(24/60)360=144^\circ$;\; B: $(18/60)360=108^\circ$;\; C: $(8/60)360=48^\circ$;\; D: $(10/60)360=60^\circ$.
+
+\item \textbf{Center/spread.}\\
+Sum $=4+7+7+8+10+12+15=63$, $n=7$. Mean $\bar{x}=63/7=9$. Median is 4th value (sorted): 8. Mode: 7 (appears twice). Range $=15-4=11$.
+
+\item \textbf{Quartiles and outliers.}\\
+Sorted: $3,5,6,6,7,9,12,15$ ($n=8$). Median $=(6+7)/2=6.5$. Lower half $3,5,6,6 \Rightarrow Q_1=(5+6)/2=5.5$. Upper half $7,9,12,15 \Rightarrow Q_3=(9+12)/2=10.5$. IQR $=10.5-5.5=5$. Fences: $5.5-1.5(5)= -2.0$ and $10.5+1.5(5)=18.0$. Since $15<18$, \textbf{15 is not an outlier}.
+
+\item \textbf{MAD.}\\
+Data: $18,19,20,21,25,27,27,29,35$. Sum $=221$, $n=9$. Mean $\bar{x}=221/9\approx24.556$.\\
+Absolute deviations (rounded to 3 d.p.):\\
+$|18-24.556|=6.556$, $|19-24.556|=5.556$, $|20-24.556|=4.556$, $|21-24.556|=3.556$, $|25-24.556|=0.444$, $|27-24.556|=2.444$, $|27-24.556|=2.444$, $|29-24.556|=4.444$, $|35-24.556|=10.444$.\\
+Sum $\approx 40.0$; MAD $\approx 40.0/9 \approx 4.444$.
+
+\item \textbf{Boxplot interpretation.}
+Median at 50 is the center of the box 45--60 (IQR = 15). Whiskers to 30 and 78 indicate full range; data are moderately spread with middle 50\% between 45 and 60. About \textbf{50\%} of the data lie between 45 and 60 (inside the box).
+
+\item \textbf{Single-roll probabilities.}\\
+(a) Odd numbers $\{1,3,5\}$: $3/6=1/2$.\\
+(b) Greater than 4: $\{5,6\}$: $2/6=1/3$.\\
+(c) $P(\text{odd}\cup >4)=P(\text{odd})+P(>4)-P(\text{odd}\cap >4)$. Intersection is $\{5\}$: $1/6$. So $1/2+1/3-1/6=2/3$.
+
+\item \textbf{Two draws without replacement (both blue).}\\
+First blue $=5/15=1/3$. Second blue given first $=4/14=2/7$. Product $=(1/3)(2/7)=2/21\approx0.0952$.
+
+\item \textbf{Two hearts without replacement.}\\
+$P(\text{first heart})=13/52=1/4$. Then $P(\text{second heart}\mid \text{first})=12/51=4/17$. Product $=(1/4)(4/17)=1/17\approx0.0588$.
+
+\item \textbf{Exactly 4 heads in 6 flips.}\\
+This is binomial: $n=6$, $p=1/2$. $P(X=4)=\binom{6}{4}(1/2)^6=15/64\approx0.2344$.
+
+\item \textbf{Two-way table.}\\
+(a) $P(\text{Participate})=74/120=0.616\overline{6}$.\\
+(b) Within Grade 9 total 30, participate 18 $\Rightarrow P=18/30=0.6$.\\
+(c) Independence would require $P(\text{Participate}\mid \text{G9})=P(\text{Participate})$. Since $0.6\neq 0.616\overline{6}$, they are \emph{not exactly} independent (difference is small but not equal).
+
+\item \textbf{Passwords (permutations).}\\
+Letters only, no repeats: $_{26}P_4=26\cdot25\cdot24\cdot23=358{,}800$.\\
+Letters/digits (36 symbols), no repeats: $_{36}P_4=36\cdot35\cdot34\cdot33=1{,}413{,}720$.
+
+\item \textbf{Committees.}\\
+(a) $\binom{10}{4}=\dfrac{10\cdot9\cdot8\cdot7}{4\cdot3\cdot2\cdot1}=210$.\\
+(b) Count all committees minus those containing both specific people A \& B. If A and B must both be on, choose the other 2 from remaining 8: $\binom{8}{2}=28$. So valid committees $=210-28=182$.
+
+\item \textbf{Binomial (guessing).}\\
+$X\sim \text{Bin}(n=8,p=1/4)$. $P(X=5)=\binom{8}{5}(1/4)^5(3/4)^3=\;56\cdot \dfrac{1}{1024}\cdot \dfrac{27}{64}=\dfrac{56\cdot27}{65536}=\dfrac{1512}{65536}\approx0.0231$.
+
+\item \textbf{Inclusion--exclusion and conditional.}\\
+(a) $P(A\cup M)=0.40+0.35-0.15=0.60$.\\
+(b) $P(\text{neither})=1-0.60=0.40$.\\
+(c) $P(A\mid M)=\dfrac{P(A\cap M)}{P(M)}=\dfrac{0.15}{0.35}\approx0.4286$.
+
+\item \textbf{Sampling method and risk.}\\
+This is \textbf{systematic sampling} (every 5th item). Risk: if there is a periodic defect aligned with the 5-item cycle, the sample could miss or over-represent defects, causing bias. Improvement: use a \textbf{simple random sample} or vary the starting point each time (random start) and/or combine with stratified checks across different shifts/machines.
+
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,14 @@
+Q13:
+1 gallon = 3.79 litres
+3 gallons = 3(3.79) = 11.37 litres
+so 11.37/0.355 = 32
+therefore, 32 containers are needed.
+For Q25, assume 10 servings per box (or you could choose something similar). On the real test, they would tell you the number of servings.
+so ...
+4.94/10 = $0.49 per serving.
+Q20:
+area = length x width
+and 1 ft = 0.3048 m
+so area = 16(0.3048) x 34(0.3048)
+= 50 m^2
+Q12b - can't simplify further, since there are different bases.

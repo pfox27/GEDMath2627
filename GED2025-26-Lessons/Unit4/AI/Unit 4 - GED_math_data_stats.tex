@@ -1,0 +1,353 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+\usepackage{amsmath, amssymb, graphicx, booktabs}
+\usepackage{hyperref}
+
+\title{GED Math Unit: Data, Statistics, and Probability}
+
+\date{\today}
+
+\begin{document}
+
+% Title Slide
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Outline
+\begin{frame}{Lesson Overview}
+  \tableofcontents
+\end{frame}
+
+% ==========================
+% LESSON 1: DATA REPRESENTATION
+% ==========================
+
+\section{Lesson 1: Data Representation}
+
+\begin{frame}{Understanding Data}
+\begin{itemize}
+  \item Data: information collected from observations or measurements.
+  \item Types:
+  \begin{itemize}
+    \item Qualitative (categorical)
+    \item Quantitative (numerical)
+  \end{itemize}
+  \item Quantitative data can be:
+  \begin{itemize}
+    \item Discrete (countable values)
+    \item Continuous (measured values)
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Visual Representations}
+  \begin{itemize}
+    \item Bar Graphs -- Compare categories.
+    \item Histograms -- Show frequency of numerical data.
+    \item Line Graphs -- Show changes over time.
+    \item Pie Charts -- Show proportions.
+  \end{itemize}
+  \begin{center}
+%    \includegraphics[width=0.6\linewidth]{example-image-a}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Example 1: Bar Graph}
+A survey found how many students prefer each subject:
+\\
+Math: 12, Science: 9, English: 15, History: 6.
+\\
+\textbf{Task:} Draw a bar graph.
+
+\begin{center}
+%\includegraphics[width=0.7\linewidth]{example-image-b}
+\end{center}
+\end{frame}
+
+\begin{frame}{Example 2: Histogram}
+Data: Test scores -- 45, 55, 60, 65, 70, 70, 75, 80, 85.
+\\
+\textbf{Task:} Create frequency intervals of 10.
+
+\begin{tabular}{ll}
+Interval & Frequency \\
+40-49 & 1 \\
+50-59 & 1 \\
+60-69 & 2 \\
+70-79 & 3 \\
+80-89 & 2 \\
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Example 3: Line Graph}
+A student’s GPA over 5 semesters: 2.8, 3.0, 3.2, 3.5, 3.6.
+\\
+\textbf{Task:} Plot points and connect them with a line.
+\\
+%\includegraphics[width=0.7\linewidth]{example-image-c}
+\end{frame}
+
+\begin{frame}{Example 4: Pie Chart}
+Total students: 30
+\\
+Math: 12, Science: 9, English: 9.
+\\
+\textbf{Angles:}
+\[
+\text{Math: } \frac{12}{30} \times 360 = 144^\circ, \; \text{Science: } 108^\circ, \; \text{English: } 108^\circ
+\]
+%\includegraphics[width=0.6\linewidth]{example-image}
+\end{frame}
+
+\begin{frame}{Example 5: Stem-and-Leaf Plot}
+Data: 42, 45, 46, 51, 53, 53, 56, 61.
+\\
+Stem | Leaf \\
+4 | 2 5 6 \\
+5 | 1 3 3 6 \\
+6 | 1 \\
+\end{frame}
+
+% ==========================
+% LESSON 2: MEASURES OF CENTRAL TENDENCY
+% ==========================
+
+\section{Lesson 2: Measures of Central Tendency}
+
+\begin{frame}{Definitions}
+\begin{itemize}
+  \item Mean: Average value
+  \item Median: Middle value when ordered
+  \item Mode: Most frequent value
+  \item Range: Difference between max and min
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example 1: Mean}
+Data: 5, 7, 9, 10, 15
+\\
+\[
+\text{Mean} = \frac{5+7+9+10+15}{5} = 9.2
+\]
+\end{frame}
+
+\begin{frame}{Example 2: Median}
+Data: 3, 5, 7, 9, 11, 13
+\\
+\text{Median} = average of 7 and 9 = 8
+\end{frame}
+
+\begin{frame}{Example 3: Mode}
+Data: 1, 2, 2, 3, 4, 4, 4, 5
+\\
+\text{Mode} = 4 (appears most often)
+\end{frame}
+
+\begin{frame}{Example 4: Range}
+Data: 12, 15, 17, 19, 25
+\\
+\text{Range} = 25 - 12 = 13
+\end{frame}
+
+\begin{frame}{Example 5: Combined Measures}
+Data: 8, 9, 9, 10, 11, 12
+\\
+Mean = 9.83, Median = 9.5, Mode = 9, Range = 4.
+\end{frame}
+
+% ==========================
+% LESSON 3: PROBABILITY BASICS
+% ==========================
+
+\section{Lesson 3: Probability Basics}
+
+\begin{frame}{Understanding Probability}
+\begin{itemize}
+  \item Probability measures how likely an event is.
+  \item Formula:
+  \[
+  P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total outcomes}}
+  \]
+  \item Range: 0 (impossible) to 1 (certain)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example 1: Coin Toss}
+P(Heads) = \(\frac{1}{2}\)
+\end{frame}
+
+\begin{frame}{Example 2: Rolling a Die}
+P(rolling 4) = \(\frac{1}{6}\)
+\end{frame}
+
+\begin{frame}{Example 3: Drawing Cards}
+Deck of 52 cards.
+\\
+P(drawing a heart) = \(\frac{13}{52} = \frac{1}{4}\)
+\end{frame}
+
+\begin{frame}{Example 4: Complementary Events}
+P(not rolling 6) = 1 - P(rolling 6) = 1 - \(\frac{1}{6} = \frac{5}{6}\)
+\end{frame}
+
+\begin{frame}{Example 5: Multiple Events}
+P(A and B) = P(A) \(\times\) P(B) if independent.
+\\
+Example: Tossing 2 heads = \(\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}\)
+\end{frame}
+
+% ==========================
+% LESSON 4: ADVANCED PROBABILITY
+% ==========================
+
+\section{Lesson 4: Advanced Probability}
+
+\begin{frame}{Dependent Events}
+P(A and B) = P(A) \(\times\) P(B|A)\\
+\vspace{0.2 cm}
+Example: Drawing 2 red cards without replacement.
+\\
+\vspace{0.2 cm}
+P(1st red) = \(\frac{26}{52}\), P(2nd red) = \(\frac{25}{51}\)\\
+\vspace{0.2 cm}
+
+So, P = \(\frac{26}{52}\times\frac{25}{51}=\frac{25}{102}\)
+\end{frame}
+
+\begin{frame}{Example 1: OR Events}
+P(A or B) = P(A) + P(B) - P(A and B)
+\\
+\vspace{0.2 cm}
+Example: Rolling a 2 or even number.
+\\
+\vspace{0.2 cm}
+P(2)=\(\frac{1}{6}\), P(even)=\(\frac{3}{6}\), P(both)=\(\frac{1}{6}\)
+\\
+\vspace{0.2 cm}
+P=\(\frac{3}{6}\)
+\end{frame}
+
+\begin{frame}{Example 2: Conditional Probability}
+P(B|A)=\(\frac{P(A\text{ and }B)}{P(A)}\)
+\\
+\vspace{0.2 cm}
+See these examples:\\
+\vspace{0.2 cm}
+\url{https://probability.oer.math.uconn.edu/wp-content/uploads/sites/2187/2018/01/prob3160ch4.pdf}
+\end{frame}
+
+\begin{frame}{Example 3: Tree Diagrams}
+
+\begin{itemize}
+    \item Helps us to visualize multiple outcomes.
+    \item Usually drawn from left to right and shows ALL possible outcomes.
+    \item Can be used for counting outcomes to find probability.
+\end{itemize}
+
+%\includegraphics[width=0.6\linewidth]{example-image}
+\end{frame}
+
+\begin{frame}{Example 4: Expected Value}
+If probabilities and outcomes are known:
+\vspace{0.2 cm}
+\\
+\(E = \sum x_i p_i\)
+\\
+\vspace{0.2 cm}
+Example: The expected value is the average outcome of a random event over many trials, calculated by multiplying the value of each outcome by its probability and summing the results. For example, a raffle ticket that costs \$3 and has a 1/150 chance of winning a \$300 prize has an expected value of -\$1. \\
+This is because the expected value is \\
+\vspace{1.0 cm}
+$\left(297 * \frac{1}{150}\right) + \left(-3 * \frac{149}{150}\right),$ which equals approximately -\$1. 
+\end{frame}
+
+\begin{frame}{Example 5: Permutations/Combinations}
+Permutations: order matters. \(nP_r=\frac{n!}{(n-r)!}\)
+\\
+\vspace{0.2 cm}
+Combinations: order doesn’t matter. \(nC_r=\frac{n!}{r!(n-r)!}\)
+\\
+\vspace{0.2 cm}
+Combination Example: Choose 3 students from 5: \(5C3=10\)\\
+\vspace{0.2 cm}
+
+A simple permutation example is arranging the letters 'a', 'b', and 'c', where the different orders like abc, acb, bac, bca, cab, and cba are all distinct permutations. 
+
+The letters a, b, and c can be arranged in 6 different ways: 
+abc
+acb
+bac
+bca
+cab
+cba
+
+\end{frame}
+
+% ==========================
+% LESSON 5: INTERPRETING DATA
+% ==========================
+
+\section{Lesson 5: Interpreting Data}
+
+\begin{frame}{Trends and Outliers}
+\begin{itemize}
+  \item Outlier: data point far from others.
+  \item Trends: upward/downward patterns.
+  \item Use scatter plots and best-fit lines.
+\end{itemize}
+%\includegraphics[width=0.7\linewidth]{example-image-c}
+\end{frame}
+
+\begin{frame}{Example 1: Scatter Plot}
+Height vs. Weight: correlation = positive.
+\\
+%\includegraphics[width=0.6\linewidth]{example-image}
+\end{frame}
+
+\begin{frame}{Example 2: Line of Best Fit}
+Predict value from trend.
+\\
+Equation: \(y = mx + b\)
+\end{frame}
+
+\begin{frame}{Example 3: Misleading Graphs}
+Check for:
+\begin{itemize}
+  \item Truncated axes
+  \item Distorted scales
+  \item Selective data
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example 4: Two-Way Tables}
+\begin{tabular}{lcc|c}
+ & Male & Female & Total \\
+\hline
+Passed & 15 & 20 & 35 \\
+Failed & 5 & 10 & 15 \\
+\hline
+Total & 20 & 30 & 50 \\
+\end{tabular}
+\\
+P(Female|Passed)=\(\frac{20}{35}=0.57\)
+\end{frame}
+
+\begin{frame}{Example 5: Interpreting Mean and Spread}
+\textbf{Standard Deviation:} measures spread.
+\\
+Low SD: data clustered, High SD: data spread out.
+\\
+Example: Test A SD=2, Test B SD=10 → Test B more variable.
+\end{frame}
+
+\begin{frame}{Summary}
+\begin{itemize}
+  \item Representing data visually
+  \item Central tendency and spread
+  \item Probability and combinations
+  \item Interpreting statistical results
+\end{itemize}
+\end{frame}
+
+\end{document}
